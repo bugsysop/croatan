@@ -51,7 +51,6 @@ function croatan_theme_setup() {
 	/* Load Croatan theme includes. */
 	require_once( trailingslashit( THEME_DIR ) . 'includes/functions-customize.php' );
 	require_once( trailingslashit( THEME_DIR ) . 'includes/functions-media.php' );
-	require_once( trailingslashit( THEME_DIR ) . 'includes/functions-shortcodes.php' );
 
 	/* Add theme support for core framework features. */
 	add_theme_support( 'hybrid-core-scripts', array( 'comment-reply' ) );
